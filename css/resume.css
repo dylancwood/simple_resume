@@ -29,7 +29,7 @@ strong { font-weight: bold; }
 li { line-height: 24px; border-bottom: 1px solid #ccc; }
 p.enlarge { font-size: 122%; padding-right: 4.5em; line-height: 24px; color:orange;}
 p.enlarge span { color: #000 }
-.contact-info { margin-top: 7px; }
+.contact-info { margin-top: 7px; background-image:url(../images/portait.jpg); background-repeat:no-repeat; background-position:right;padding-right:90px; text-align:right; margin-left: -20px;}
 .first h2 { font-style: italic; }
 div:last-child, li:last-child { border-bottom: 0 }
 
@@ -70,4 +70,5 @@ a#pdf:before {position:absolute; left:-2.5em; top:-0.5em;display:block; content:
    #pdf{ display:none; }
    #ft{ margin:0px; padding:3px; }
    a{ text-decoration:none; color:inherit; }
+   .contact-info{background:none; margin-left:auto;}
 }
