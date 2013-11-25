@@ -61,6 +61,18 @@ a#pdf:before {position:absolute; left:-2.5em; top:-0.5em;display:block; content:
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
+.detail-modal{
+   display:none;
+   position:absolute;
+   box-shadow:5px 5px 20px #666;
+   z-index:2;
+   padding:20px;
+   background-color:white;
+}
+li:hover div.detail-modal{
+   display:block;
+}
+
 @media print {
    body { font-size:90%; }
    #inner { padding:0px; margin:0px; }
@@ -71,4 +83,6 @@ a#pdf:before {position:absolute; left:-2.5em; top:-0.5em;display:block; content:
    #ft{ margin:0px; padding:3px; }
    a{ text-decoration:none; color:inherit; }
    .contact-info{background:none; margin-left:auto;}
+   li:hover div.detail-modal{display:none;}
+   .detail-modal{display:none!important;}
 }
