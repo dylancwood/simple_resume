@@ -72,6 +72,11 @@ a#pdf:before {position:absolute; left:-2.5em; top:-0.5em;display:block; content:
 li:hover div.detail-modal{
    display:block;
 }
+li u{
+   border-bottom:2px dotted #DB8F07;
+   text-decoration:none;
+   cursor:pointer;
+}
 
 @media print {
    body { font-size:90%; }
@@ -85,4 +90,5 @@ li:hover div.detail-modal{
    .contact-info{background:none; margin-left:auto;}
    li:hover div.detail-modal{display:none;}
    .detail-modal{display:none!important;}
+   li u {border-bottom:none;}
 }
